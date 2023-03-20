@@ -1,0 +1,13 @@
+DB_IP=ussd-scan2-ndc3.vodafone.in
+DB_PORT=1610
+DB_USER=ussdmis
+DB_PASS=ussdmis
+DB_SID=USSDHA
+
+DB_IP2=ussd-scan3-ndc3.vodafone.in
+DB_PORT2=1526
+DB_USER2=dmussd
+DB_PASS2=dmussd
+DB_SID2=dmussd
+
+DB_DOWN_FILE=/MIS/DATA/dbDownFile

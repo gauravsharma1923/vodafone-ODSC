@@ -1,0 +1,105 @@
+html,body,head,h1,h2,h3,h4,h5,h6,table,thead,tbody,tr,td,th,p,span,div,form,input,button
+{
+        margin: 0;
+        padding: 0;
+	font-family: sans-serif;
+}
+
+.container
+{
+        width: 80%;
+        margin-left:auto;
+        margin-right : auto;
+        margin-top : 30px;
+}
+
+.inputField
+{
+    width:150px;
+    line-height: 1.5em;
+}
+.cancel-btn,
+.edit-btn,
+.save-btn
+{
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    
+     background-color: #fff;
+    border-color: #ccc;
+}
+.delete-btn{
+-moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    
+     background-color: #fff;
+    border-color: #ccc;
+}
+
+
+.cancel-btn:hover,
+.edit-btn:hover,
+.save-btn:hover
+{
+    background-color:#62C2CC;
+}
+
+.cancel-btn[disabled]
+.edit-btn[disabled],
+.save-btn[disabled]
+{
+    box-shadow: none;
+    cursor: not-allowed;
+    opacity: 0.65;
+    pointer-events: none;
+}
+
+table
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table >thead > tr{
+    background: #62c2cc;
+}
+
+table.dataTable > tbody > tr:nth-child(even)
+{
+    background: #E4F6F8;
+}
+
+table > tbody > tr >td
+{
+    
+    border-top: 1px solid #ddd;
+    line-height: 1.42857;
+    padding: 8px;
+    vertical-align: top;
+}
+
+
